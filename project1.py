@@ -7,6 +7,7 @@ def load_stopwords():
     """Load stopwords from stopwords.txt file."""
     stopwords = set()
     try:
+        
         with open('stopwords.txt', 'r') as f:
             for line in f:
                 word = line.strip()

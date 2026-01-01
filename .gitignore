@@ -1,0 +1,5 @@
+__pycache__/ 
+*.pyc 
+._* 
+200.txt 
+4000.txt 

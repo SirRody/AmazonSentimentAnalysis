@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 Sentiment Analysis: Amazon Food Reviews Classifier
 
 ## 🎯 Project Overview
@@ -88,3 +89,6 @@ Future improvements could include:
 
 As a passionate data scientist with a passion for turning raw data into actionable insights, I built this project to master the fundamentals of machine learning and natural language processing. What fascinates me most is how simple mathematical models can capture the complexities of human language and emotion. Beyond the code, I'm interested in how these techniques can create real business value - helping companies understand their customers better and helping consumers make more informed decisions. This project represents both technical learning and practical problem-solving, blending algorithm implementation with real-world application.
 
+=======
+# SentimentAnalysis-AmazonReviews
+>>>>>>> 4e6391d797034a21d46d14352310d81b32a22b85
