@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 📊 Sentiment Analysis: Amazon Food Reviews Classifier
+ # 📊 Sentiment Analysis: Amazon Food Reviews Classifier
 
 ## 🎯 Project Overview
 This project builds a **machine learning system** that automatically reads Amazon food reviews and determines if they're positive or negative. Think of it as a **robot taste-tester** that learns from thousands of customer opinions!
@@ -14,15 +13,20 @@ This project builds a **machine learning system** that automatically reads Amazo
 Online shoppers face **review overload** - thousands of reviews for each product. How do you quickly understand what most customers think? This project solves that by automatically classifying reviews as **👍 Positive** or **👎 Negative**, helping shoppers make faster decisions and businesses understand customer feedback.
 
 ## 📁 Project Structure
-**SentimentAnalysis-AmazonReviews/**
+**AmazonSentimentAnalysis/**
 - **main.py** - Main controller that runs all experiments
 - **project1.py** - Core algorithms (Perceptron, Average Perceptron, Pegasos)
 - **utils.py** - Helper functions for data loading and plotting
 - **test.py** - Testing script for debugging
-- **stopwords.txt** - Common words to ignore during analysis
-- **reviews_train.tsv** - Training data (3,500 reviews)
-- **reviews_val.tsv** - Validation data (500 reviews)
-- **reviews_test.tsv** - Test data (1,000 reviews)
+- **data/** - All dataset files
+  - **reviews_train.tsv** - Training data (3,500 reviews)
+  - **reviews_val.tsv** - Validation data (500 reviews)
+  - **reviews_test.tsv** - Test data (1,000 reviews)
+  - ... Additional data files
+- **resources/** - Configuration and resource files
+  - **stopwords.txt** - Common words to ignore during analysis
+- **documentation/** - Project documentation
+- **.gitignore** - Git exclusion rules
 
 **How It Works:**
 1. Read reviews and break them into individual words
@@ -38,6 +42,7 @@ Online shoppers face **review overload** - thousands of reviews for each product
 | Preventing overfitting | Used regularization in Pegasos algorithm |
 | Choosing the best algorithm | Tested 3 approaches, Pegasos performed best |
 | Binary vs count features | Binary (yes/no) features beat count (frequency) features |
+| Maintaining code simplicity | Kept Python files in root directory, organized only non-code files |
 
 ## 📊 Performance Summary
 ### **Accuracy Results:**
@@ -58,6 +63,7 @@ Online shoppers face **review overload** - thousands of reviews for each product
 3. **Stopwords removal helps**: Filtering common words like "the", "and" improved accuracy
 4. **Food-specific signals**: "Delicious" was the #1 most positive word
 5. **Emphasis indicators**: ALL-CAPS words often signal strong sentiment
+6. **Clean organization**: Keeping code structure simple prevents import issues and improves maintainability
 
 ## 🌍 Real World Applications
 
@@ -76,19 +82,21 @@ Online shoppers face **review overload** - thousands of reviews for each product
 - **Language analysis**: Study how emotion is expressed in online reviews
 - **A/B testing**: Compare review sentiment after product changes
 
+## 🚀 Getting Started
+1. Clone the repository: `git clone https://github.com/SirRody/AmazonSentimentAnalysis.git`
+2. Run the main script: `python main.py`
+3. View results in the console output
+
 ## 🎓 Conclusion
-This project demonstrates that **even simple machine learning** can solve real business problems. With just basic word counting and linear classifiers, we achieved **80%+ accuracy** in predicting review sentiment. The real power comes from understanding **what works** (binary features, stopword removal) and **what doesn't** (word counts).
+This project demonstrates that **even simple machine learning** can solve real business problems. With just basic word counting and linear classifiers, we achieved **80%+ accuracy** in predicting review sentiment. The real power comes from understanding **what works** (binary features, stopword removal, clean code organization) and **what doesn't** (word counts, complex file structures).
 
 Future improvements could include:
 - **Emoji analysis** 😍 vs 😡
 - **Sarcasm detection** ("Oh GREAT, another broken package")
 - **Aspect-based sentiment** (separate ratings for taste, packaging, delivery)
+- **Neural network approaches** for improved accuracy
 
 ## 👨‍💻 Author
 **Rodrick** - Data Scientist/ML Engineer
 
 As a passionate data scientist with a passion for turning raw data into actionable insights, I built this project to master the fundamentals of machine learning and natural language processing. What fascinates me most is how simple mathematical models can capture the complexities of human language and emotion. Beyond the code, I'm interested in how these techniques can create real business value - helping companies understand their customers better and helping consumers make more informed decisions. This project represents both technical learning and practical problem-solving, blending algorithm implementation with real-world application.
-
-=======
-# SentimentAnalysis-AmazonReviews
->>>>>>> 4e6391d797034a21d46d14352310d81b32a22b85
