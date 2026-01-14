@@ -1,5 +1,12 @@
  # 📊 Sentiment Analysis: Amazon Food Reviews Classifier
 
+ ## 🚀 Live Demo
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AmazonSentimentAnalysis/blob/main/demo.ipynb)
+
+Click the button above to try the sentiment analyzer. No setup needed!
+
+
 ## 🎯 Project Overview
 This project builds a **machine learning system** that automatically reads Amazon food reviews and determines if they're positive or negative. Think of it as a **robot taste-tester** that learns from thousands of customer opinions!
 
