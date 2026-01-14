@@ -15,25 +15,24 @@ Online shoppers face **review overload** - thousands of reviews for each product
 
 ## 📁 Project Structure
 AmazonSentimentAnalysis/
-├── main.py # Main controller that runs all experiments
-├── project1.py # Core algorithms (Perceptron, Average Perceptron, Pegasos)
-├── utils.py # Helper functions for data loading and plotting
-├── test.py # Testing script for debugging
-├── .gitignore # Git ignore rules
-├── README.md # This documentation
-├── data/ # All dataset files
-│ ├── reviews_train.tsv # Training data (3,500 reviews)
-│ ├── reviews_val.tsv # Validation data (500 reviews)
-│ ├── reviews_test.tsv # Test data (1,000 reviews)
-│ ├── reviews_submit.tsv # Submission data
-│ ├── toy_data.tsv # Toy dataset for debugging
-│ └── *.txt # Additional text resources
-├── resources/ # Configuration and resource files
-│ └── stopwords.txt # 126 common words to ignore during analysis
-└── documentation/ # Project documentation
-└── DATA_INFO.md # Data format specifications
-
-text
+main.py              # Main controller that runs all experiments
+project1.py          # Core algorithms (Perceptron, Average Perceptron, Pegasos)
+utils.py             # Helper functions for data loading and plotting
+test.py              # Testing script for debugging
+.gitignore           # Git ignore rules
+README.md            # This documentation
+data/                # All dataset files
+    reviews_train.tsv  # Training data (3,500 reviews)
+    reviews_val.tsv    # Validation data (500 reviews)
+    reviews_test.tsv   # Test data (1,000 reviews)
+    reviews_submit.tsv # Submission data
+    toy_data.tsv       # Toy dataset for debugging
+    200.txt            # Example text file
+    4000.txt           # Example text file
+resources/           # Configuration and resource files
+    stopwords.txt   # 126 common words to ignore during analysis
+documentation/      # Project documentation
+    DATA_INFO.md    # Data format specifications
 
 **How It Works:**
 1. Read reviews and break them into individual words
