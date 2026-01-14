@@ -22,4 +22,4 @@ Thumbs.db
 
 # Data
 # *.tsv
-# *.txt
+# *.txt.ipynb_checkpoints/ 
