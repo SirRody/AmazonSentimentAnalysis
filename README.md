@@ -10,11 +10,26 @@
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6B6B?style=for-the-badge)
 ![NLP](https://img.shields.io/badge/Natural_Language_Processing-4ECDC4?style=for-the-badge)
 
- ## 🚀 Live Demo
+ ## 🌐 Live Demos
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SirRody/AmazonSentimentAnalysis/blob/main/demo.ipynb)
+### **🤖 Advanced Demo (Pegasos Algorithm)**
+[![Hugging Face Spaces](https://img.shields.io/badge/🤖_Live_Pegasos_Demo-Hugging_Face_Spaces-yellow)](https://huggingface.co/spaces/SirRody/amazon-sentiment-pro)
 
-Click the button above to try the sentiment analyzer. No setup needed!
+**Features:**
+- Uses the actual Pegasos algorithm implemented from scratch
+- Processes text with 13,108-word vocabulary
+- Shows mathematical confidence scores
+- 80.8% test accuracy
+
+### **🚀 Basic Demo (Keyword Matching)**
+[![Hugging Face Spaces](https://img.shields.io/badge/🚀_Basic_Demo-Hugging_Face_Spaces-blue)](https://huggingface.co/spaces/SirRody/amazon-sentiment)
+
+**Features:**
+- Simple keyword-based sentiment analysis
+- Quick testing interface
+- Example reviews provided
+
+**Try both demos to see the difference!**
 
 
 ## 🎯 Project Overview
