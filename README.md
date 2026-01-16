@@ -1,5 +1,37 @@
  # 📊 Sentiment Analysis: Amazon Food Reviews Classifier
 
+ ## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6B6B?style=for-the-badge)
+![NLP](https://img.shields.io/badge/Natural_Language_Processing-4ECDC4?style=for-the-badge)
+
+ ## 🌐 Live Demos
+
+### **🤖 Advanced Demo (Pegasos Algorithm)**
+[![Hugging Face Spaces](https://img.shields.io/badge/🤖_Live_Pegasos_Demo-Hugging_Face_Spaces-yellow)](https://huggingface.co/spaces/SirRody/amazon-sentiment-pro)
+
+**Features:**
+- Uses the actual Pegasos algorithm implemented from scratch
+- Processes text with 13,108-word vocabulary
+- Shows mathematical confidence scores
+- 80.8% test accuracy
+
+### **🚀 Basic Demo (Keyword Matching)**
+[![Hugging Face Spaces](https://img.shields.io/badge/🚀_Basic_Demo-Hugging_Face_Spaces-blue)](https://huggingface.co/spaces/SirRody/amazon-sentiment)
+
+**Features:**
+- Simple keyword-based sentiment analysis
+- Quick testing interface
+- Example reviews provided
+
+**Try both demos to see the difference!**
+
+
 ## 🎯 Project Overview
 This project builds a **machine learning system** that automatically reads Amazon food reviews and determines if they're positive or negative. Think of it as a **robot taste-tester** that learns from thousands of customer opinions!
 
